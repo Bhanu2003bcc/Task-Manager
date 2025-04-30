@@ -4,35 +4,34 @@ A robust To-Do application backend built with Spring Boot, featuring MongoDB for
 
 Features :
 
-User Authentication
-Email/password registration with verification
-Login/logout functionality
-Password reset functionality
-Role-Based Access Control
-USER and ADMIN roles
-Protected endpoints based on roles
-To-Do Management
-Create, read, update, and delete todos
-Mark todos as complete
-Set due dates
-mail Notifications
-Account verification emails
-Login alerts
-Password reset emails
-OAuth2 Integration
-Google login support
-Data Persistence
-MongoDB for primary data storage
-Redis for token/session management
+User Authentication,
+Email/password registration with verification,
+Login/logout functionality,
+Password reset functionality,
+Role-Based Access Control,
+USER and ADMIN roles,
+Protected endpoints based on roles,
+To-Do Management,
+Create, read, update, and delete todos,
+Mark todos as complete,
+Set due dates,
+mail Notifications,
+Account verification emails,
+Login alerts,
+Password reset emails,
+OAuth2 Integration,
+Google login support,
+Data Persistence,
+MongoDB for primary data storage,
+Redis for token/session management,
 
 Technologies Used :
 
-Backend: Spring Boot 3.2.4
-Database: MongoDB
-Cache/Session: Redis
-Authentication: Spring Security
-Email: JavaMailSender
-API Documentation: None (Swagger/OpenAPI removed)
+Backend: Spring Boot 3.2.4,
+Database: MongoDB,
+Cache/Session: Redis,
+Authentication: Spring Security,
+Email: JavaMailSender,
 
 Build Tool: Maven
 
