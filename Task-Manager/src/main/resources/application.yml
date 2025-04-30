@@ -3,20 +3,20 @@ spring:
         name: Task-Manager
     data:
         mongodb:
-            uri: mongodb+srv://sablolhai2003:PQjIpcCgKQM8ic7W@cluster0.blz4ijo.mongodb.net/todo?retryWrites=true&w=majority&appName=Cluster0
+            uri: mongoUrl
             auto-index-creation: true
             connection-pool:
                 max-size: 50
                 min-size: 5
                 max-wait-time: 2000
     redis:
-        host: redis-10808.crce179.ap-south-1-1.ec2.redns.redis-cloud.com
+        host: redisUrl
         port: 10808
         password: AhNt8x9Mme9sPiEZD1Hhau9w7iIKXsWV
     mail:
         host: smtp.gmail.com
         port: 587
-        username: bpsinghbond07@gmail.com
+        username: username
         password: taze fpqc ubfc zixu
         properties:
             mail:
@@ -31,7 +31,7 @@ server:
     shutdown: graceful
 
 jwt:
-    secret-key: c2VjdXJlc2VjcmV0a2V5dGhhdGlzbG9uZ2Vub3VnaHRvYmUyNTZiaXRz
+    secret-key: secretKey
     expiration: 86400000 # 24 hours in milliseconds
 
 app:
